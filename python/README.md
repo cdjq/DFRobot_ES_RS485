@@ -28,11 +28,8 @@ DFRobot_ES_RS485
 
 ## Installation
 
-Download this library to Raspberry Pi before use, then open the routine folder. Type python demox.py on the command line to execute a routine demox.py. For example, to execute the control_led.py routine, you need to enter:
-
-```python
-python basic.py
-```
+要使用库, 首先下载库文件, 将其粘贴到指定的目录中, 然后打开examples文件夹并在该文件夹中运行演示。
+本库关联了modbus_tk库，使用前请确保树莓派已经下载了modbus_tk。
 
 ## Methods
 

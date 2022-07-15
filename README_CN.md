@@ -30,6 +30,7 @@ DFRobot_ES_RS485
 这里提供两种使用本库的方法：
 1. 打开Arduino IDE,在状态栏中的Tools--->Manager Libraries 搜索"DFRobot_SHT"并安装本库.
 2. 首先下载库文件,将其粘贴到\Arduino\libraries目录中,然后打开examples文件夹并在该文件夹中运行演示.
+注意：本库需要配合DFRobot_RTU使用，确保安装了DFRobot_RTU后再使用本库
 
 ## 方法
 

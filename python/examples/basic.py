@@ -55,8 +55,8 @@ def loop():
   humidity=sensor.get_humidity()
 
   #上面获取的温湿度经过内部计算，如果你需要更高的精度，请采用获取原始数据的方式
-  # temperature = -45 + 175*((sensor.get_temperature_raw()())/65536.0);
-  # humidity =  ((sensor.get_humidity_raw()) * 100.0) / 65536.0;
+  # temperature = -45 + 175*((sensor.get_temperature_raw())/65536.0)
+  # humidity =  ((sensor.get_humidity_raw()) * 100.0) / 65536.0
 
   '''!
     This API is used to get the sensor operating status
