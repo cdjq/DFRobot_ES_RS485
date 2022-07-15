@@ -1,0 +1,49 @@
+
+#######################################
+# Syntax Map For DFRobot_ES_RS485
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_ES_RS485	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setDeviceAddress	KEYWORD2
+setDeviceBaud	KEYWORD2
+getFirmwareVersion	KEYWORD2
+getVid	KEYWORD2
+getPid	KEYWORD2
+getTemperature	KEYWORD2
+getHumidity	KEYWORD2
+getTemperatureRaw	KEYWORD2
+getHumidityRaw	KEYWORD2
+getENS160Status	KEYWORD2
+getAQI	KEYWORD2
+getTVOC	KEYWORD2
+getECO2	KEYWORD2
+
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+eBaud2400	LITERAL1
+eBaud4800	LITERAL1
+eBaud9600	LITERAL1
+eBaud14400	LITERAL1
+eBaud19200	LITERAL1
+eBaud38400	LITERAL1
+eBaud57600	LITERAL1
+eBaud115200	LITERAL1
